@@ -1,0 +1,16 @@
+# Node modules (if any node project is added later)
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup or temporary files
+*.bak
+*.tmp
+
+# VS Code settings (optional)
+.vscode/
