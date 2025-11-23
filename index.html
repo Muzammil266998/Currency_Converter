@@ -4,88 +4,88 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Online Currency Converter - USD, EUR, INR, PKR & More</title>
-<meta name="description" content="Free online Currency Converter to convert USD, EUR, GBP, INR, PKR, AED, JPY, CAD and more. High traffic currency conversion tool with soothing UI.">
+<meta name="description" content="Free online Currency Converter to convert USD, EUR, GBP, INR, PKR, AED, JPY, CAD and more. Quick, accurate, high-traffic currency conversion tool.">
 <meta name="keywords" content="currency converter, usd to pkr, eur to usd, inr to usd, pkr to usd, online converter, live exchange rates">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://Muzammil266998.github.io/Currency_Converter/">
 
-<!-- AdSense script (head me) -->
+<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2164084672972830"
      crossorigin="anonymous"></script>
 
 <style>
-/* ... tumhara existing CSS ... */
 * { box-sizing: border-box; margin:0; padding:0; font-family: 'Poppins', sans-serif; }
-body { display: flex; min-height: 100vh; background: linear-gradient(145deg,#e0f7fa,#f1f8e9); color: #333; }
-.container { flex: 1; padding: 40px; display: flex; flex-direction: column; align-items: center; }
-h1 { color: #37474f; text-align: center; margin-bottom: 30px; font-size: 2rem; }
-.converter { background: #ffffffdd; padding: 30px; border-radius: 25px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); width: 100%; max-width: 500px; }
-.converter input, .converter select, .converter button { width: 100%; margin: 10px 0; padding: 12px; font-size: 1rem; border-radius: 12px; }
-.converter button { cursor: pointer; background: linear-gradient(90deg,#a8edea,#fed6e3); font-weight: 600; border: none; }
-.result { text-align: center; margin-top: 20px; padding: 15px; background: #e0f2f1; border-radius: 12px; font-size: 1.2rem; font-weight: 600; color: #00695c; }
-.quick-pairs { display:flex; flex-wrap: wrap; gap:10px; justify-content:center; margin-top:20px; }
+body { background: linear-gradient(145deg,#e0f7fa,#f1f8e9); color: #333; display: flex; flex-direction: column; align-items: center; }
+h1 { text-align: center; margin: 20px 0; color: #37474f; font-size: 2rem; }
+.container { width:100%; max-width:600px; padding:20px; display:flex; flex-direction:column; align-items:center; }
+.converter { background:#ffffffdd; padding:25px; border-radius:25px; box-shadow:0 8px 20px rgba(0,0,0,0.08); width:100%; margin-bottom:15px; }
+.converter input, .converter select, .converter button { width:100%; margin:10px 0; padding:12px; font-size:1rem; border-radius:12px; }
+.converter button { cursor:pointer; background: linear-gradient(90deg,#a8edea,#fed6e3); font-weight:600; border:none; }
+.result { text-align:center; margin-top:15px; padding:12px; background:#e0f2f1; border-radius:12px; font-size:1.2rem; font-weight:600; color:#00695c; }
+
+.quick-pairs { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:10px; }
 .quick-pairs button { padding:10px 15px; border-radius:50px; border:none; background:#c8e6c9; cursor:pointer; transition:0.3s; }
 .quick-pairs button:hover { background:#aed581; }
-.sidebar { width:300px; background:#ffffffdd; padding:20px; box-shadow:-2px 0 10px rgba(0,0,0,0.05); position:sticky; top:0; height:100vh; }
-.sidebar h2 { font-size:1.2rem; margin-bottom:15px; text-align:center; }
-.ad-box { margin-bottom:20px; display:flex; justify-content:center; align-items:center; }
-@media(max-width:900px){ body{flex-direction:column;} .sidebar{width:100%; height:auto; margin-bottom:20px;} }
+
+.ad-box { width:100%; max-width:728px; margin:15px auto; display:flex; justify-content:center; }
+
+@media(max-width:900px){ .ad-box{ max-width:100%; } }
 </style>
 </head>
 <body>
 
+<h1> Currency Converter</h1>
+
+<!-- Top Banner Ad -->
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2164084672972830"
+     data-ad-slot="1111111111"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
 <div class="container">
-<h1>Soothing Currency Converter</h1>
+
 <div class="converter">
 <label>Amount</label>
 <input type="number" id="amount" value="1">
 
 <label>From</label>
 <select id="fromCurrency">
-<!-- existing currencies + high traffic ones -->
-<option value="USD">USD</option>
-<option value="EUR">EUR</option>
-<option value="PKR">PKR</option>
-<option value="INR">INR</option>
-<option value="AED">AED</option>
-<option value="SAR">SAR</option>
-<option value="GBP">GBP</option>
-<option value="JPY">JPY</option>
-<option value="CAD">CAD</option>
-<option value="AUD">AUD</option>
-<option value="CNY">CNY</option>
-<option value="TRY">TRY</option>
-<option value="CHF">CHF</option>
-<option value="IDR">IDR</option>
-<option value="BDT">BDT</option>
-<option value="LKR">LKR</option>
-<option value="MYR">MYR</option>
+<option value="USD">USD</option><option value="EUR">EUR</option><option value="PKR">PKR</option>
+<option value="INR">INR</option><option value="AED">AED</option><option value="SAR">SAR</option>
+<option value="GBP">GBP</option><option value="JPY">JPY</option><option value="CAD">CAD</option>
+<option value="AUD">AUD</option><option value="CNY">CNY</option><option value="TRY">TRY</option>
+<option value="CHF">CHF</option><option value="IDR">IDR</option><option value="BDT">BDT</option>
+<option value="LKR">LKR</option><option value="MYR">MYR</option>
 </select>
 
 <label>To</label>
 <select id="toCurrency">
-<!-- same currencies -->
-<option value="USD">USD</option>
-<option value="EUR">EUR</option>
-<option value="PKR">PKR</option>
-<option value="INR">INR</option>
-<option value="AED">AED</option>
-<option value="SAR">SAR</option>
-<option value="GBP">GBP</option>
-<option value="JPY">JPY</option>
-<option value="CAD">CAD</option>
-<option value="AUD">AUD</option>
-<option value="CNY">CNY</option>
-<option value="TRY">TRY</option>
-<option value="CHF">CHF</option>
-<option value="IDR">IDR</option>
-<option value="BDT">BDT</option>
-<option value="LKR">LKR</option>
-<option value="MYR">MYR</option>
+<option value="USD">USD</option><option value="EUR">EUR</option><option value="PKR">PKR</option>
+<option value="INR">INR</option><option value="AED">AED</option><option value="SAR">SAR</option>
+<option value="GBP">GBP</option><option value="JPY">JPY</option><option value="CAD">CAD</option>
+<option value="AUD">AUD</option><option value="CNY">CNY</option><option value="TRY">TRY</option>
+<option value="CHF">CHF</option><option value="IDR">IDR</option><option value="BDT">BDT</option>
+<option value="LKR">LKR</option><option value="MYR">MYR</option>
 </select>
 
 <button onclick="convert()">Convert</button>
 <div class="result" id="result">Result will appear here</div>
+
+<!-- In-content Ad -->
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2164084672972830"
+     data-ad-slot="2222222222"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <div class="quick-pairs">
 <button onclick="quickConvert('USD','PKR')">USD → PKR</button>
@@ -94,47 +94,39 @@ h1 { color: #37474f; text-align: center; margin-bottom: 30px; font-size: 2rem; }
 <button onclick="quickConvert('GBP','USD')">GBP → USD</button>
 <button onclick="quickConvert('INR','USD')">INR → USD</button>
 </div>
+</div>
 
-<!-- AdSense ad under converter -->
+<!-- Sidebar Ad (your real slot) -->
 <div class="ad-box">
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-2164084672972830"
-       data-ad-slot="1111111111"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2164084672972830"
+     data-ad-slot="4856273256"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 
-</div>
-</div>
-
-<div class="sidebar">
-<h2>Ads</h2>
-
-<!-- Sidebar AdSense ad -->
+<!-- Bottom Banner Ad -->
 <div class="ad-box">
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-2164084672972830"
-       data-ad-slot="2222222222"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
-
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2164084672972830"
+     data-ad-slot="3333333333"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 
 <script>
-// Your currency rates and conversion code
 const rates = {
-  "USD":{"USD":1,"EUR":0.93,"PKR":285,"INR":83,"AED":3.67,"SAR":3.75,"GBP":0.82,"JPY":158,"CAD":1.36,"AUD":1.52,"CNY":7.1,"TRY":30,"CHF":0.90,"IDR":15800,"BDT":110,"LKR":330,"MYR":4.7},
-  "EUR":{"USD":1.08,"EUR":1,"PKR":307,"INR":89,"AED":3.95,"SAR":4,"GBP":0.88,"JPY":170,"CAD":1.46,"AUD":1.63,"CNY":7.7,"TRY":32,"CHF":0.98,"IDR":17000,"BDT":118,"LKR":355,"MYR":5},
-  // ... baki currencies ...
+"USD":{"USD":1,"EUR":0.93,"PKR":285,"INR":83,"AED":3.67,"SAR":3.75,"GBP":0.82,"JPY":158,"CAD":1.36,"AUD":1.52,"CNY":7.1,"TRY":30,"CHF":0.90,"IDR":15800,"BDT":110,"LKR":330,"MYR":4.7},
+"EUR":{"USD":1.08,"EUR":1,"PKR":307,"INR":89,"AED":3.95,"SAR":4,"GBP":0.88,"JPY":170,"CAD":1.46,"AUD":1.63,"CNY":7.7,"TRY":32,"CHF":0.98,"IDR":17000,"BDT":118,"LKR":355,"MYR":5},
+"PKR":{"USD":0.0035,"EUR":0.0033,"PKR":1,"INR":0.29,"AED":0.0129,"SAR":0.0131,"GBP":0.0029,"JPY":0.56,"CAD":0.0048,"AUD":0.0054,"CNY":0.025,"TRY":0.10,"CHF":0.0032,"IDR":55,"BDT":0.38,"LKR":0.90,"MYR":0.017},
+"INR":{"USD":0.012,"EUR":0.011,"PKR":3.45,"INR":1,"AED":0.044,"SAR":0.046,"GBP":0.0099,"JPY":1.9,"CAD":0.016,"AUD":0.018,"CNY":0.086,"TRY":0.35,"CHF":0.011,"IDR":190,"BDT":1.30,"LKR":3.4,"MYR":0.063},
+"AED":{"USD":0.27,"EUR":0.25,"PKR":77.6,"INR":22.6,"AED":1,"SAR":1.02,"GBP":0.22,"JPY":43,"CAD":0.37,"AUD":0.41,"CNY":1.94,"TRY":8,"CHF":0.25,"IDR":4300,"BDT":30,"LKR":80,"MYR":1.2},
+"SAR":{"USD":0.27,"EUR":0.25,"PKR":78,"INR":23,"AED":0.98,"SAR":1,"GBP":0.22,"JPY":42,"CAD":0.36,"AUD":0.41,"CNY":1.93,"TRY":7.9,"CHF":0.25,"IDR":4200,"BDT":30,"LKR":79,"MYR":1.2},
+"GBP":{"USD":1.22,"EUR":1.13,"PKR":348,"INR":102,"AED":4.57,"SAR":4.63,"GBP":1,"JPY":190,"CAD":1.66,"AUD":1.86,"CNY":8.8,"TRY":37,"CHF":1.12,"IDR":19000,"BDT":132,"LKR":400,"MYR":5.4}
 };
 
 function convert(){
